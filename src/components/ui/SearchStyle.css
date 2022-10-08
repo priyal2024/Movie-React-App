@@ -1,0 +1,29 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  transition: 0.8s;
+  background-color: transparent;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+.searchContainer:hover input {
+  width: 350px;
+  cursor: pointer;
+}
+.searchContainer input {
+  border: none;
+  outline: none;
+  padding: 0.3em;
+  background: transparent;
+  width: 0px;
+  transition: 0.8s;
+  font-size: 1em;
+}
+.searchIcon {
+  color: white;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 7px;
+}
+
